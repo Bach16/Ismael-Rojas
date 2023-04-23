@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ismael Rojas</h1>
 <h3 align="center">A passionate Web designer and Full-stack developer from Ecuador</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bach16" alt="bach16" /></a> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=bach16&label=Profile%20views&color=0e75b6&style=flat" alt="bach16" /> </p>
 
 - 🌱 I’m currently learning **Tailwind and UI/UX**
 
