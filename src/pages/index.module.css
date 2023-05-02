@@ -1,0 +1,13 @@
+.strokeText{
+    font-family: 'Inter', sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 4.1px;
+    height: 135px;
+}
+.fillText{
+    font-family: 'Inter', sans-serif;
+    height: 150px;
+}
+.jaldi{
+    font-family: Jaldi, sans-serif;
+}

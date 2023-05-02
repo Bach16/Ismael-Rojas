@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import logo from "../../public/logo2.png";
 import { SideBar } from "../../components";
 import { Flex, Heading, Text } from "@chakra-ui/react";
+import style from "./index.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,22 +20,28 @@ export default function Home() {
       <main>
         <Flex>
           <SideBar />
-          <Flex flexDir="column">
-            <Heading fontSize={50}>Ismael Rojas</Heading>
-            <Text
-              as="h1"
-              fontSize={180}
-              fontWeight="1000"
-              color="#59BDB1"
-              sx={{
-                textShadow: "0 5px 1px  #272727 ,5px 0 1px  #272727,-5px 0 1px  #272727,0 -5px 1px  #272727 ,5px 5px 1px  #272727,-5px -5px 1px  #272727, -5px 5px 1px  #272727,-5px 5px 1px  #272727, 5px -5px 1px  #272727,5px -5px 1px  #272727"
-              }}
-            >
-              Full-Stack
-            </Text>
-            <Heading as="h1" size="4xl">
-              Developer
-            </Heading>
+          <Flex flexDir="column" paddingTop={105} pl={135}>
+            <Heading h="14px" fontWeight="100" className={style.jaldi} color="#fff" fontSize={32}>Ismael Rojas</Heading>
+            <Flex flexDir="column" h="250px" justifyContent="space-between"  >
+              <Text
+                as="h1"
+                fontSize={145}
+                fontWeight="1000"
+                color="#272727"
+                className={style.strokeText}
+              >
+                Full-Stack
+              </Text>
+              <Text
+                as="h1"
+                className={style.fillText}
+                fontSize={165}
+                fontWeight="1000"
+                color="#272727"
+              >
+                Developer
+              </Text>
+            </Flex>
           </Flex>
         </Flex>
       </main>
