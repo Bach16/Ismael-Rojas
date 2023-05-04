@@ -1,10 +1,9 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import logo from "../../public/Changed_color_no_BG.png";
-import { SideBar } from "../../components";
+import { Navbar, CAButton } from "../../components";
 import { Flex, Heading, Text } from "@chakra-ui/react";
 import style from "./index.module.css";
-import Navbar from "../../components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +18,20 @@ export default function Home() {
       </Head>
 
       <main>
-        <Flex className="flex-col">
-          <Navbar/>
-          <Flex flexDir="column" className="pl-28 pt-20">
-            <Heading h="14px" fontWeight="100" className={style.jaldi} color="#fff" fontSize={32}>Ismael Rojas</Heading>
-            <Flex flexDir="column" h="250px" justifyContent="space-between"  >
+        <Flex className="justify-center">
+        <Flex className="flex-col" w="83%">
+          <Navbar />
+          <Flex flexDir="column" className=" pt-20">
+            <Heading
+              h="14px"
+              fontWeight="100"
+              className={style.jaldi}
+              color="#fff"
+              fontSize={32}
+            >
+              Ismael Rojas
+            </Heading>
+            <Flex flexDir="column" justifyContent="space-between">
               <Text
                 as="h1"
                 fontSize={128}
@@ -42,20 +50,22 @@ export default function Home() {
               >
                 Developer
               </Text>
-              <Text
-                fontSize={16}
-                color="#272727"
-              >
-                Passionate developer with strong commitment to innovation, critical thinking
+              <Text fontSize={16} color="#272727">
+                Passionate developer with strong commitment to innovation,
+                critical thinking
               </Text>
-              <Text
-                fontSize={16}
-                color="#272727"
-              >
-and lifelong learning
+              <Text fontSize={16} color="#272727">
+                and lifelong learning
               </Text>
+              <Flex mt="55px">
+                <CAButton color="#222222" />
+              </Flex>
             </Flex>
           </Flex>
+        </Flex>
+        <Flex h="80vh">
+
+        </Flex>
         </Flex>
       </main>
     </>
