@@ -1,14 +1,66 @@
 .strokeText{
     font-family: 'Inter', sans-serif;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 3px;
-    height: 105px;
-    padding-left: 4px;
+    -webkit-text-stroke-width: 2px;
+    height: 50px;
+    font-size: 50px;
+
 }
 .fillText{
     font-family: 'Inter', sans-serif;
-    height: 210px;
+    height: 80px;
+    font-size: 45px;
+}
+.Text{
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
 }
 .jaldi{
     font-family: Jaldi, sans-serif;
+    font-size: 18px;
 }
+
+@media screen and (min-width: 30em) {
+    .strokeText {
+        height: 75px;
+        font-size: 75px;
+    }
+    .fillText {
+        height: 140px;
+        font-size: 95px;
+    }
+    .Text{
+        font-size: 13px;
+    }
+    .jaldi{
+        font-size: 25px;
+    }
+  }
+@media screen and (min-width: 48em) {
+    .strokeText {
+        height: 80px;
+        font-size: 90px;
+        -webkit-text-stroke-width: 3px;
+
+    }
+    .fillText {
+        height: 170px;
+        font-size: 120px;
+    }
+    .jaldi{
+        font-size: 32px;
+    }
+  }
+@media screen and (min-width: 50em) {
+    .strokeText {
+        height: 105px;
+        font-size: 128px;
+    }
+    .fillText {
+        height: 210px;
+        font-size: 150px;
+    }
+    .jaldi{
+        font-size: 32px;
+    }
+  }

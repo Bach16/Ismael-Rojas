@@ -27,37 +27,38 @@ export default function Home() {
               fontWeight="100"
               className={style.jaldi}
               color="#fff"
-              fontSize={32}
             >
               Ismael Rojas
             </Heading>
             <Flex flexDir="column" justifyContent="space-between">
               <Text
                 as="h1"
-                fontSize={128}
+                className={style.strokeText}
                 fontWeight="1000"
                 color="#272727"
-                className={style.strokeText}
               >
                 Full-Stack
               </Text>
               <Text
                 as="h1"
                 className={style.fillText}
-                fontSize={150}
                 fontWeight="800"
                 color="#272727"
               >
                 Developer
               </Text>
-              <Text fontSize={16} color="#272727">
+              <Text className={`${style.Text} md:flex hidden`}color="#272727">
                 Passionate developer with strong commitment to innovation,
                 critical thinking
               </Text>
-              <Text fontSize={16} color="#272727">
+              <Text className={`${style.Text} md:flex hidden`} color="#272727">
                 and lifelong learning
               </Text>
-              <Flex mt="55px">
+              <Text className={`${style.Text} md:hidden`} color="#272727">
+                Passionate developer with strong commitment to innovation,
+                critical thinking and lifelong learning
+              </Text>
+              <Flex className=" md:mt-16 mt-10">
                 <CAButton color="#222222" />
               </Flex>
             </Flex>
