@@ -31,7 +31,7 @@ export default function Home() {
             <Flex flexDir="column" className=" pt-20">
               <Heading
                 h="14px"
-                fontWeight="100"
+                fontWeight="200"
                 className={style.jaldi}
                 color="#fff"
               >
