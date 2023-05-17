@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../public/IR-2nd.png";
+import logo from "../public/IR-2nd-white.png";
 import {
   Drawer,
   DrawerBody,
@@ -20,9 +20,12 @@ const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
   return (
-    <Flex className="pt-7 text-xl items-center justify-between">
-      <Link href="/">
-        <img src={logo.src} className="aspect-auto box-border h-9  w-9.5" />
+    <Flex className="pt-7 text-xl items-center justify-between ">
+      <Link href="/" className="w-[200px]">
+      <Flex className=" justify-between items-center m-0 ">
+        <img src={logo.src} className="h-9  w-9.5" alt="logo" />
+      <Text className=" md:flex hidden font-medium text-2xl text-white font-inter">Ismael Rojas</Text>
+      </Flex>
       </Link>
 
       <CgMenuRound className="md:hidden font-thin text-white h-12 w-12"  onClick={onOpen} />
