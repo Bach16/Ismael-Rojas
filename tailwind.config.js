@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Akshar', 'sans-serif'],
+        inter: ['Inter', 'sans-serif']
       },
     },
   },
