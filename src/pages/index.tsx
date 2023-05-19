@@ -70,6 +70,11 @@ export default function Home() {
                 </Link>
                   </Text>
 
+                  <Flex className="mt-[50px]">
+
+                  <CAButton color="#00C1B0"/>
+                  </Flex>
+
                 {/*  <Flex className=" md:mt-16 mt-10 w-[50%] md:w-[20%] justify-between">
                   <Icon boxSize={45} as={BsGithub}/>
                   <Icon boxSize={45} as={BsLinkedin}/>
