@@ -1,11 +1,15 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import logo from "../../public/Changed_color_no_BG.png";
-import patern from "../../public/patern.png";
+import patern from "../../public/197553.png";
 import { Navbar, CAButton } from "../../components";
-import { Button, Flex, Heading, Text } from "@chakra-ui/react";
+import { Button, Flex, Heading, Icon, Text } from "@chakra-ui/react";
 import style from "./index.module.css";
 import perfil from "../../public/circulo_portfolio_borderless.png";
+import "animate.css";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { useState } from "react";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,65 +21,65 @@ export default function Home() {
         <meta name="description" content="Full stack web developer portfolio" />
         <link rel="icon" href={logo.src} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
       </Head>
 
       <main>
         <Flex className="justify-center ">
-          <Flex className="flex-col" h="100vh" w="83%">
+          <Flex className="flex-col" h="100vh" w="80%">
             <Navbar />
 
-            <Flex flexDir="column" className=" pt-20">
-              
-
-              <Flex flexDir="column" justifyContent="space-between">
+            <Flex
+              flexDir="column"
+              w="100%"
+              className=" items-center pt-10 md:pt-20 sm:pt-22"
+            >
+              <Flex
+                flexDir="column"
+                alignItems="center"
+                textAlign="center"
+                justifyContent="space-between"
+              >
                 <Text
-                  as="h2"
-                  className={style.strokeText}
-                  fontWeight="1000"
-                  color="#272727"
+                  className={`${style.Text} mt-5 `}
+                  maxW="600px"
+                  color="#00C1B0"
                 >
-                  Full-Stack
+                  Hi, I'm Ismael Rojas
                 </Text>
 
-                <Text
-                  as="h2"
-                  className={style.fillText}
-                  fontWeight="800"
-                  color="#272727"
-                >
-                  Developer
-                </Text>
+                <div className={style.strokeText}>
+                    <Text
+                      as="h2"
+                      className={` animate__animated animate__fadeInDown`}
+                      fontWeight="1000"
+                      color="#00C1B0"
+                    >
+                  <Link href="/designer">
+                      Web designer
+                  </Link>
+                    </Text>
+                </div>
+                  <Text
+                    as="h2"
+                    className={`${style.fillText} animate__animated animate__fadeInUp`}
+                    fontWeight="800"
+                    color="#00C1B0"
+                  >
+                <Link href="/developer">
+                    & Developer
+                </Link>
+                  </Text>
 
-                <Text
-                  className={`${style.Text} md:flex hidden`}
-                  color="#272727"
-                >
-                  Passionate developer with strong commitment to innovation,
-                  critical thinking
-                </Text>
-
-                <Text
-                  className={`${style.Text} md:flex hidden`}
-                  color="#272727"
-                >
-                  and lifelong learning
-                </Text>
-
-                <Text className={`${style.Text} md:hidden`} color="#272727">
-                  Passionate developer with strong commitment to innovation,
-                  critical thinking and lifelong learning
-                </Text>
-
-                <Flex className=" md:mt-16 mt-10">
-                  <CAButton color="#222" />
-                </Flex>
+                {/*  <Flex className=" md:mt-16 mt-10 w-[50%] md:w-[20%] justify-between">
+                  <Icon boxSize={45} as={BsGithub}/>
+                  <Icon boxSize={45} as={BsLinkedin}/>
+                </Flex> */}
               </Flex>
             </Flex>
           </Flex>
         </Flex>
 
-        <Flex
+        {/* <Flex
           className="bg-contain bg-no-repeat pt-28 md:pt-0 justify-center items-center h-[190vh] md:h-[95vh]"
           bgImage={patern.src}
           bgColor="#F2F2F2"
@@ -107,7 +111,7 @@ export default function Home() {
             </Flex>
 
             <Flex
-              className="items-center h-[600px] font-inter "
+              className="items-center h-[600px] font-inter  "
               maxW="390px"
             >
               <Flex className="flex-col">
@@ -140,7 +144,7 @@ export default function Home() {
 
         <Flex className="justify-center " m={0} h="30vh" bgColor="#222222">
           <Flex className="flex-col" h="30vh" w="83%"></Flex>
-        </Flex>
+        </Flex> */}
       </main>
     </>
   );
