@@ -11,7 +11,7 @@ const CAButton = (color: any) => {
         className=" font-['Inter'] md:w-44 md:h-10 md:text-[17] w-40 h-10 text-base rounded-full "
       >
         <Flex className="justify-between font-inter items-center">
-          <Text color="#f2f2f2"  fontWeight="600">
+          <Text color="#222222"  fontWeight="600">
             See projects
           </Text>
         </Flex>
