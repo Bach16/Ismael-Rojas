@@ -24,14 +24,12 @@ const Navbar = () => {
       <Link href="/" className="w-[200px]">
         <Flex className=" justify-between items-center m-0 ">
           <img src={logo.src} className="h-9  w-9.5" alt="logo" />
-          <Text className=" md:flex hidden font-medium text-2xl text-white font-inter text-[#00C1B0]">
-            Ismael Rojas
-          </Text>
+          
         </Flex>
       </Link>
 
       <CgMenuRound
-        className="md:hidden font-thin text-white h-12 w-12"
+        className="md:hidden font-thin text-[#00C1B0] h-12 w-12"
         onClick={onOpen}
       />
 
@@ -59,7 +57,7 @@ const Navbar = () => {
         </DrawerContent>
       </Drawer>
 
-      <div className="md:flex hidden text-white justify-between mr-10 w-[315px]  text-[#00C1B0] font-[360px]">
+      <div className="md:flex hidden justify-between mr-10 w-[315px]  text-[#00C1B0] font-[360px]">
         <Link href="/developer">
           <Text>Developer</Text>
         </Link>
