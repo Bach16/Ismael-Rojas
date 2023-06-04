@@ -7,6 +7,14 @@
     line-height: 68px;
 
 }
+.strechText{
+    display:inline-block;
+    -webkit-transform:scale(2,3); /* Safari and Chrome */
+    -moz-transform:scale(2,3); /* Firefox */
+    -ms-transform:scale(2,3); /* IE 9 */
+    -o-transform:scale(2,3); /* Opera */
+    transform:scale(2,2.8);
+}
 .fillText{
     font-family: 'Inter', sans-serif;
     height: 70px;

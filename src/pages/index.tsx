@@ -25,61 +25,40 @@ export default function Home() {
 
       <main>
         <Flex className="justify-center ">
-          <Flex className="flex-col" h="100vh" w="80%">
+          <Flex className="flex-col w-[80%] md:w-[90.7%]" h="100vh" >
             <Navbar />
 
             <Flex
               flexDir="column"
               w="100%"
-              className=" items-center pt-10 md:pt-20 sm:pt-22"
+              className="leading-[29px] md:leading-[50px] font-media font-[100] h-100% mt-[26vh] items-center  md:pt-[28px] sm:pt-22"
             >
               <Flex
                 flexDir="column"
-                alignItems="center"
-                textAlign="center"
                 justifyContent="space-between"
-              >
-                <Text
-                  className={`${style.Text} mt-5 `}
-                  maxW="600px"
-                  color="#00C1B0"
+                className={`text-left text-[30px] md:text-[52px] ${style.strechText}  mb-[23vh]`}
                 >
-                  Hi, I'm Ismael Rojas
-                </Text>
-
-                <div className={style.strokeText}>
-                    <Text
-                      as="h2"
-                      className={` animate__animated animate__fadeInDown`}
-                      fontWeight="1000"
-                      color="#00C1B0"
-                    >
-                  <Link href="/designer">
-                      Web designer
-                  </Link>
-                    </Text>
-                </div>
-                  <Text
-                    as="h2"
-                    className={`${style.fillText} animate__animated animate__fadeInUp`}
-                    fontWeight="800"
-                    color="#00C1B0"
-                  >
-                <Link href="/developer">
-                    & Developer
-                </Link>
-                  </Text>
-
-                  <Flex className="mt-[50px]">
-
-                  <CAButton color="#00C1B0"/>
-                  </Flex>
+                <Flex  
+                >
+                  <Text className={`text-[#f2f2f2]`}>WEB</Text>
+                </Flex>
+                <Flex className="justify-between">
+                  <Text className="text-[#00C1B0]">DESIGNER</Text>
+                  <Text className=" uppercase text-[#f2f2f2]">&</Text>
+                </Flex>
+                <Flex>
+                  <Text className="text-[#f2f2f2]">FULL  STACK</Text>
+                </Flex>
+                <Flex>
+                  <Text className="text-[#00C1B0]">DEVELOPER</Text>
+                </Flex>
 
                 {/*  <Flex className=" md:mt-16 mt-10 w-[50%] md:w-[20%] justify-between">
                   <Icon boxSize={45} as={BsGithub}/>
                   <Icon boxSize={45} as={BsLinkedin}/>
                 </Flex> */}
               </Flex>
+              <CAButton color="#D33367" />
             </Flex>
           </Flex>
         </Flex>
