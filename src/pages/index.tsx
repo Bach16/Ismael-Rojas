@@ -20,6 +20,7 @@ export default function Home() {
         <title>Ismael Rojas - Home</title>
         <meta name="description" content="Full stack web developer portfolio" />
         <link rel="icon" href={logo.src} />
+        <link href="https://fonts.googleapis.com" rel="preconnect"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
