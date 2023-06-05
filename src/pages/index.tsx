@@ -10,6 +10,7 @@ import "animate.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { useState } from "react";
 import Link from "next/link";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,10 +32,10 @@ export default function Home() {
           property="og:description"
         ></meta>
         <meta property="og:type" content="website"></meta>
-        <script
+        <Script
           src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
           type="text/javascript"
-        ></script>
+        ></Script>
       </Head>
       <main>
         <Flex className="justify-center ">
