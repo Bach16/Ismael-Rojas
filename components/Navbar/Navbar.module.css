@@ -1,0 +1,55 @@
+.diva{
+    height:0px;
+    width:0%;
+    border-bottom:2px solid #00C1B0;
+    
+    -webkit-animation: increase 3s;
+    -moz-animation:    increase 3s; 
+    -o-animation:      increase 3s; 
+    animation:         increase 3s; 
+    animation-fill-mode: forwards;
+  }
+.diva2{
+    height:0px;
+    width:0%;
+    border-bottom:2px solid #00C1B0;
+    
+    -webkit-animation: increase 3s;
+    -moz-animation:    increase 3s; 
+    -o-animation:      increase 3s; 
+    animation:         increase 3s; 
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+  }
+.diva3{  
+    height:0px;
+    width:0%;
+    border-bottom:2px solid #00C1B0;
+    
+    -webkit-animation: increase 3s;
+    -moz-animation:    increase 3s; 
+    -o-animation:      increase 3s; 
+    animation:         increase 3s; 
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+  }
+.diva4{
+    height:0px;
+    width:0%;
+    border-bottom:2px solid #00C1B0;
+    
+    -webkit-animation: increase 3s;
+    -moz-animation:    increase 3s; 
+    -o-animation:      increase 3s; 
+    animation:         increase 3s; 
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+
+  }
+  
+  @keyframes increase {
+      100% {
+          width: 100%;
+      }
+  }
