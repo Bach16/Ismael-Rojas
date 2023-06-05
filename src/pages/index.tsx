@@ -22,11 +22,23 @@ export default function Home() {
         <link rel="icon" href={logo.src} />
         <link href="https://fonts.googleapis.com" rel="preconnect"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          content="Webdesigner, &amp; Full stack developer, I help you to perpetuate your brand image and to design a website adapted to your needs."
+          name="description"
+        ></meta>
+        <meta
+          content="Webdesigner, &amp; Full stack developer, I help you to perpetuate your brand image and to design a website adapted to your needs."
+          property="og:description"
+        ></meta>
+        <meta property="og:type" content="website"></meta>
+        <script
+          src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+          type="text/javascript"
+        ></script>
       </Head>
-
       <main>
         <Flex className="justify-center ">
-          <Flex className="flex-col w-[80%] md:w-[90.7%]" h="100vh" >
+          <Flex className="flex-col w-[80%] md:w-[90.7%]" h="100vh">
             <Navbar />
 
             <Flex
@@ -38,9 +50,8 @@ export default function Home() {
                 flexDir="column"
                 justifyContent="space-between"
                 className={`text-left text-[30px] md:text-[52px] ${style.strechText}  mb-[23vh]`}
-                >
-                <Flex  
-                >
+              >
+                <Flex>
                   <Text className={`text-[#f2f2f2]`}>WEB</Text>
                 </Flex>
                 <Flex className="justify-between">
@@ -48,7 +59,7 @@ export default function Home() {
                   <Text className=" uppercase text-[#f2f2f2]">&</Text>
                 </Flex>
                 <Flex>
-                  <Text className="text-[#f2f2f2]">FULL  STACK</Text>
+                  <Text className="text-[#f2f2f2]">FULL STACK</Text>
                 </Flex>
                 <Flex>
                   <Text className="text-[#00C1B0]">DEVELOPER</Text>
