@@ -18,7 +18,7 @@ import {
 import Link from "next/link";
 import { CgMenuRound } from "react-icons/cg";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import DrawerItem from "../DrawerItem";
+import DrawerItem from "../DrawerItem/DrawerItem";
 import style from "./Navbar.module.css"
 
 const Navbar = () => {

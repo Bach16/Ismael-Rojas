@@ -3,35 +3,37 @@
     width:0%;
     border-bottom:2px solid #00C1B0;
     
-    -webkit-animation: increase 3s;
-    -moz-animation:    increase 3s; 
-    -o-animation:      increase 3s; 
-    animation:         increase 3s; 
+    -webkit-animation: increase 1s;
+    -moz-animation:    increase 1s; 
+    -o-animation:      increase 1s; 
+    animation:         increase 1s; 
     animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+
   }
 .diva2{
     height:0px;
     width:0%;
     border-bottom:2px solid #00C1B0;
     
-    -webkit-animation: increase 3s;
-    -moz-animation:    increase 3s; 
-    -o-animation:      increase 3s; 
-    animation:         increase 3s; 
+    -webkit-animation: increase 1s;
+    -moz-animation:    increase 1s; 
+    -o-animation:      increase 1s; 
+    animation:         increase 1s; 
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 0.6s;
   }
 .diva3{  
     height:0px;
     width:0%;
     border-bottom:2px solid #00C1B0;
     
-    -webkit-animation: increase 3s;
-    -moz-animation:    increase 3s; 
-    -o-animation:      increase 3s; 
-    animation:         increase 3s; 
+    -webkit-animation: increase 1s;
+    -moz-animation:    increase 1s; 
+    -o-animation:      increase 1s; 
+    animation:         increase 1s; 
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: 0.7s;
 
   }
 .diva4{
@@ -39,12 +41,12 @@
     width:0%;
     border-bottom:2px solid #00C1B0;
     
-    -webkit-animation: increase 3s;
-    -moz-animation:    increase 3s; 
-    -o-animation:      increase 3s; 
-    animation:         increase 3s; 
+    -webkit-animation: increase 1s;
+    -moz-animation:    increase 1s; 
+    -o-animation:      increase 1s; 
+    animation:         increase 1s; 
     animation-fill-mode: forwards;
-    animation-delay: 1.5s;
+    animation-delay: 0.8s;
 
   }
   
