@@ -13,7 +13,7 @@
     -moz-transform:scale(2,3); /* Firefox */
     -ms-transform:scale(2,3); /* IE 9 */
     -o-transform:scale(2,3); /* Opera */
-    transform:scale(2,2.8);
+    transform:scale(2,2.7);
 }
 .fillText{
     font-family: 'Inter', sans-serif;

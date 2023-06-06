@@ -1,6 +1,11 @@
 @font-face {
+    font-size:xx-small;
     font-family: 'Work Sans';
     src: url('../../public/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf') format('truetype');
     font-weight:800;
-    font-size: 10px !important; 
+  }
+@font-face {
+    font-family: 'Anton';
+    src: url('../../public/fonts/Anton/Anton-Regular.ttf') format('truetype');
+    font-weight:800;
   }

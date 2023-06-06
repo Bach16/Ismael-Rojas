@@ -45,7 +45,7 @@ export default function Home() {
             <Flex
               flexDir="column"
               w="100%"
-              className="leading-[29px] md:leading-[50px] font-media font-[100] h-100% mt-[26vh] items-center  md:pt-[28px] sm:pt-22"
+              className="leading-[31px] md:leading-[50px] font-media font-[100] h-100% mt-[26vh] items-center  md:pt-[28px] sm:pt-22"
             >
               <Flex
                 flexDir="column"

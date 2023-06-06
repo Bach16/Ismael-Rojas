@@ -14,7 +14,7 @@ module.exports = {
         akshar: ['Akshar', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
         anton: ['Anton', 'sans-serif'],
-        media: ["Media Sans Semicondensed","Impact","Work Sans","sans-serif"]
+        media: ["Anton","Media Sans Semicondensed","Impact","Work Sans","sans-serif"]
       },
     },
   },
