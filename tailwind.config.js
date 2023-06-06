@@ -13,8 +13,7 @@ module.exports = {
       fontFamily: {
         akshar: ['Akshar', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
-        anton: ['Anton', 'sans-serif'],
-        media: ["Anton","Media Sans Semicondensed","Impact","Work Sans","sans-serif"]
+        anton: ["Anton","Media Sans Semicondensed","Impact","Work Sans","sans-serif"]
       },
     },
   },
