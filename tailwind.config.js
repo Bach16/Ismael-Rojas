@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         akshar: ['Akshar', 'sans-serif'],
+        lobster: ['Lobster', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
         anton: ["Anton","Media Sans Semicondensed","Impact","Work Sans","sans-serif"]
       },
