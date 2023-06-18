@@ -1,7 +1,7 @@
 .diva{
     height:0px;
     width:0%;
-    border-bottom: 2.0px solid #D33367;
+    border-bottom: 2.0px solid #00C1B0;
     
     -webkit-animation: increase 1s;
     -moz-animation:    increase 1s; 
@@ -14,7 +14,7 @@
 .diva2{
     height:0px;
     width:0%;
-    border-bottom: 2.0px solid #D33367;
+    border-bottom: 2.0px solid #00C1B0;
     
     -webkit-animation: increase 1s;
     -moz-animation:    increase 1s; 
@@ -26,7 +26,7 @@
 .diva3{  
     height:0px;
     width:0%;
-    border-bottom: 2.0px solid #D33367;
+    border-bottom: 2.0px solid #00C1B0;
     
     -webkit-animation: increase 1s;
     -moz-animation:    increase 1s; 
@@ -39,7 +39,7 @@
 .diva4{
     height:0px;
     width:0%;
-    border-bottom: 2.0px solid #D33367;
+    border-bottom: 2.0px solid #00C1B0;
     
     -webkit-animation: increase 1s;
     -moz-animation:    increase 1s; 
@@ -47,6 +47,20 @@
     animation:         increase 1s; 
     animation-fill-mode: forwards;
     animation-delay: 0.8s;
+
+  }
+  
+.diva5{
+    height:0px;
+    width:0%;
+    border-bottom: 2.0px solid #00C1B0;
+    
+    -webkit-animation: increase 1s;
+    -moz-animation:    increase 1s; 
+    -o-animation:      increase 1s; 
+    animation:         increase 1s; 
+    animation-fill-mode: forwards;
+    animation-delay: 0.9s;
 
   }
   
