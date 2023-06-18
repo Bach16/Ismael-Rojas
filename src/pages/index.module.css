@@ -9,11 +9,11 @@
 }
 .strechText{
     display:inline-block;
-    -webkit-transform:scale(2,3); /* Safari and Chrome */
-    -moz-transform:scale(2,3); /* Firefox */
-    -ms-transform:scale(2,3); /* IE 9 */
-    -o-transform:scale(2,3); /* Opera */
-    transform:scale(2,2.7);
+    -webkit-transform:scale(2,2.2); /* Safari and Chrome */
+    -moz-transform:scale(2,2.2); /* Firefox */
+    -ms-transform:scale(2,2.2); /* IE 9 */
+    -o-transform:scale(2,2.2); /* Opera */
+    transform:scale(2,2.2);
 }
 .fillText{
     font-family: 'Inter', sans-serif;
@@ -48,6 +48,13 @@
     }
   }
 @media screen and (min-width: 48em) {
+    .bgLogo{
+        background-attachment:local;
+        background-image: url(../../public/Artboard-19.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+    }
     .strokeText {
         height: 72px;
         font-size: 105px;
@@ -88,3 +95,4 @@
         font-size: 32px;
     }
   }
+  
