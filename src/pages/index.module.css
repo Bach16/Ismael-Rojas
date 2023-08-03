@@ -50,7 +50,7 @@
 @media screen and (min-width: 48em) {
     .bgLogo{
         background-attachment:local;
-        background-image: url(../../public/Artboard-19.png);
+        background-image: url(../../public/Artboard\ 19.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right;
