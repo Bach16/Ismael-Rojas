@@ -3,7 +3,6 @@ import Head from "next/head";
 import Link from "next/link";
 import logo from "../../../public/Icon-I.png";
 import project from "../../../public/griffin-wooldridge-5_emZ2pRapU.jpg";
-import React from "react";
 import { Navbar } from "../../../components";
 
 const Projects = () => {
@@ -40,18 +39,7 @@ const Projects = () => {
             </Flex>
           </Flex>
         </Flex>
-        <Flex
-          bgImage={project.src}
-          className=" whitespace-pre transition text-left whitespace-pre justify-center pl-[7%] text-[#fff] leading-none flex-col w-[100%] h-[140px]  md:h-[320px] bg-cover md:bg-cover bg-[center_bottom_150px] md:bg-[center_bottom_525px] hover:bg-[#00000040] cursor-pointer bg-[#00000066] duration-300 bg-blend-multiply"
-        >
-          <Text className="text-[15px] md:text-[19px] font-light"> 2023</Text>
-          <Text className="text-[35px] md:text-[55px] font-extrabold mb-[5px]">
-            Casual Couture
-          </Text>
-          <Text className="text-[15px] md:text-[20px] font-light">
-            CLOTING E-COMMERCE
-          </Text>
-        </Flex>
+        
       </main>
     </>
   );
