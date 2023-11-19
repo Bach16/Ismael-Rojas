@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../public/logo2.png";
+import logo from "../public/Icon-I.png";
 import { Flex, Image,Icon,Box } from "@chakra-ui/react";
 import { BsGithub,BsLinkedin } from "react-icons/bs"
 
