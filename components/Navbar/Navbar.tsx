@@ -58,18 +58,18 @@ const Navbar = () => {
           <DrawerBody className="text-[30px]">
             
             <div className={style.diva} />
-            <DrawerItem path="/" text="Home" />
+            <DrawerItem path="https://github.com/Bach16" text="Github" />
             <div className={style.diva2} />
-            <DrawerItem path="/projects" text="Projects" />
+            <DrawerItem path="https://www.linkedin.com/in/ismael-rojas-villacreses-583438252/" text="Linkedin" />
             <div className={style.diva3} />
-            <DrawerItem path="/contact" text="Contact" />
+            <DrawerItem path="https://dribbble.com/bach76" text="Dribble" />
             <div className={style.diva4} />
-            <DrawerItem path="/about" text="About" />
-            <div className={style.diva5} />
+            {/* <DrawerItem path="/about" text="About" />
+            <div className={style.diva5} /> */}
           </DrawerBody>
         </DrawerContent>
       </Drawer>
-      <NavItems />
+      {/* <NavItems /> */}
       {/* <div className="md:flex hidden justify-between  ml-[100px] w-[60px]  text-[#222] font-[400]">
         <Text>ES</Text>
         <Text borderBottom="1px solid #07BEB8" color="#07BEB8">
