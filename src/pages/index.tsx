@@ -114,7 +114,7 @@ export default function Home() {
             year="2023"
             name="Minima"
             description="WEB DEVELOPMENT AGENCY"
-            clas={"bg-[length:50%_auto] md:bg-[length:40%_auto]"}
+            clas={"bg-[length:50%_auto] md:bg-[length:30%_auto]"}
           />          
           <ProjectCard
             link="https://dulcina.org"
