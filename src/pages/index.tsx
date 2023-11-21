@@ -125,7 +125,7 @@ export default function Home() {
             clas={"bg-[center_bottom_150px] md:bg-[center_bottom_-25rem]"}
           />          
           <ProjectCard
-            link="https://pf-e-commerce-react.vercel.app"
+            link="https://dribbble.com/bach76"
             img="/griffin-wooldridge-5_emZ2pRapU.jpg"
             year="2023"
             name="Casual Couture"
