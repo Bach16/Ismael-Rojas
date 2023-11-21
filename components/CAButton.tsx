@@ -5,16 +5,21 @@ import Link from "next/link";
 
 const CAButton = (r: any) => {
   console.log(r.r);
-  
+
   return (
-    <Link href="/projects" className={` ${r.r == true? "md:hidden" : "md:flex" }`}>
+    <Link
+      href="https://dribbble.com/bach76"
+      target="_blank"
+      rel="noopener noreferrer"
+      className={` ${r.r == true ? "md:hidden" : "md:flex"}`}
+    >
       <Button
         border="1px solid #222"
-        className="md:w-44 md:h-10 md:text-[17] w-40 h-10 text-[19px] tracking-wide antialiased rounded-full "
+        className="md:w-[14rem] md:h-[2.8rem] md:text-[17] w-[12rem] h-[2.2rem] text-[16px] tracking-wide antialiased rounded-full "
       >
         <Flex className="justify-between items-center">
-          <Text color="#222"  fontWeight="500">
-            Projects
+          <Text color="#222" fontWeight="400">
+            See all projects
           </Text>
         </Flex>
       </Button>

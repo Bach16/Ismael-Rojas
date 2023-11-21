@@ -58,11 +58,11 @@ const Navbar = () => {
           <DrawerBody className="text-[30px]">
             
             <div className={style.diva} />
-            <DrawerItem path="https://github.com/Bach16" text="Github" />
+            <DrawerItem path="https://dribbble.com/bach76" text="Dribble" />
             <div className={style.diva2} />
             <DrawerItem path="https://www.linkedin.com/in/ismael-rojas-villacreses-583438252/" text="Linkedin" />
             <div className={style.diva3} />
-            <DrawerItem path="https://dribbble.com/bach76" text="Dribble" />
+            <DrawerItem path="https://github.com/Bach16" text="Github" />
             <div className={style.diva4} />
             {/* <DrawerItem path="/about" text="About" />
             <div className={style.diva5} /> */}
