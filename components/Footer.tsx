@@ -1,6 +1,7 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Icon, Text } from "@chakra-ui/react";
 import React from "react";
 import NavItems from "./Navbar/NavItems";
+import { BsDribbble, BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -25,7 +26,29 @@ const Footer = () => {
           </svg>
           <Text>2023 Ismael Rojas</Text>
         </Flex>
-          <NavItems />
+        <div className=" hidden md:flex  w-[20%] items-center justify-evenly text-[#222222]">
+              <a
+                href="https://dribbble.com/bach76"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon as={BsDribbble} boxSize={35} />
+              </a>
+              <a
+                href="https://github.com/Bach16"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon as={BsGithub} boxSize={35} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ismael-rojas-villacreses-583438252/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon as={BsLinkedin} boxSize={35} />
+              </a>
+            </div>
       </Flex>
     </footer>
   );
