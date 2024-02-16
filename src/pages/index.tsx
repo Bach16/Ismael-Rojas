@@ -109,7 +109,7 @@ export default function Home() {
         </div>
         <div className="min-h-[50vh] sm:min-h-screen">
           <ProjectCard
-            link="https://ngold-goldenelf.vercel.app/goldenelfp"
+            link="https://ngold-goldenelf.vercel.app/goldenelf"
             img="/195.png"
             year="2024"
             name="Golden Elf"
