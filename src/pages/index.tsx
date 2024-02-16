@@ -109,6 +109,14 @@ export default function Home() {
         </div>
         <div className="min-h-[50vh] sm:min-h-screen">
           <ProjectCard
+            link="https://ngold-goldenelf.vercel.app/goldenelfp"
+            img="/195.png"
+            year="2024"
+            name="Golden Elf"
+            description="NFT DAPP"
+            clas={"!bg-[length:100%_auto] !sm:bg-[length:100%_auto]"}
+          />          
+          <ProjectCard
             link="https://minima-mauve.vercel.app"
             img="/Artboard 28.png"
             year="2023"
