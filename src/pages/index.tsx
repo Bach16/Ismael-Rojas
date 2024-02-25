@@ -85,7 +85,7 @@ export default function Home() {
                   </Flex>
                   <Flex className=" ">
                     <Text className=" uppercase mr-[18px] text-[#222]">&</Text>
-                    <Text className="text-[#222]">FULL STACK</Text>
+                    <Text className="text-[#222]">FRONT END</Text>
                   </Flex>
                   <Flex className="">
                     <Text className="text-[#07BEB8]">DEVELOPER</Text>
