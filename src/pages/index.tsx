@@ -109,20 +109,20 @@ export default function Home() {
         </div>
         <div className="min-h-[50vh] sm:min-h-screen">
           <ProjectCard
-            link="https://ngold-goldenelf.vercel.app/goldenelf"
-            img="/195.png"
-            year="2024"
-            name="Golden Elf"
-            description="NFT DAPP"
-            clas={"!bg-[length:100%_auto] !sm:bg-[length:100%_auto]"}
-          />          
-          <ProjectCard
             link="https://minima-mauve.vercel.app"
             img="/Artboard 28.png"
             year="2023"
             name="Minima"
             description="WEB DEVELOPMENT AGENCY"
             clas={"!bg-[length:50%_auto] !sm:bg-[length:30%_auto]"}
+          />          
+          <ProjectCard
+            link="https://ngold-goldenelf.vercel.app/goldenelf"
+            img="/195.png"
+            year="2024"
+            name="Golden Elf"
+            description="NFT DAPP"
+            clas={"!bg-[length:100%_auto] !sm:bg-[length:100%_auto]"}
           />          
           <ProjectCard
             link="https://dulcina.org"
