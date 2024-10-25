@@ -108,15 +108,7 @@ export default function Home() {
           </div>
         </div>
         <div className="min-h-[50vh] sm:min-h-screen">
-          <ProjectCard
-            link="https://minima-mauve.vercel.app"
-            img="/Artboard 28.png"
-            year="2024"
-            name="Minima"
-            description="WEB DEVELOPMENT AGENCY"
-            clas={"!bg-[length:50%_auto] !sm:bg-[length:30%_auto]"}
-          />          
-          <ProjectCard
+         <ProjectCard
             link="https://ngold-goldenelf.vercel.app/goldenelf"
             img="/195.png"
             year="2024"
