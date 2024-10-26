@@ -25,11 +25,11 @@ export default function Home() {
         <link href="https://fonts.googleapis.com" rel="preconnect"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
-          content="Webdesigner, &amp; Full stack developer, I help you to perpetuate your brand image and to design a website adapted to your needs."
+          content=" Rojas Villacreses Mateo Ismael Webdesigner, &amp; Full stack developer, I help you to perpetuate your brand image and to design a website adapted to your needs."
           name="description"
         ></meta>
         <meta
-          content="Webdesigner, &amp; Full stack developer, I help you to perpetuate your brand image and to design a website adapted to your needs."
+          content=" Rojas Villacreses Mateo Ismael Webdesigner, &amp; Full stack developer, I help you to perpetuate your brand image and to design a website adapted to your needs."
           property="og:description"
         ></meta>
         <meta property="og:type" content="website"></meta>
@@ -75,11 +75,12 @@ export default function Home() {
                   justifyContent="space-between"
                   className={`text-[47px] md:text-[115px]  `}
                 >
-                  <Text
+                  <Heading 
+                    as="h1"
                     className={`text-[#222] flex justify-center items-center relative top-[0.6rem] sm:top-[2rem] text-[1.3rem] sm:text-[1.7rem] ${montserrat.className} `}
                   >
-                    Ismael Rojas
-                  </Text>
+                    Rojas Villacreses Mateo Ismael
+                  </Heading >
                   <Flex className="justify-between ">
                     <Text className={`text-[#222] mr-[18px] `}>WEB</Text>
                     <Text className="text-[#07BEB8]">DESIGNER</Text>
