@@ -1,7 +1,7 @@
 import Head from "next/head";
 import logo from "../../public/Icon-I.png";
 import { Navbar, CAButton, Footer, ProjectCard } from "../../components";
-import { Button, Flex, Heading, Icon, Text } from "@chakra-ui/react";
+import { Button, Flex, Heading, Icon, Text } from "@chakra-ui/react"; 
 import style from "./index.module.css";
 import "animate.css";
 import { BsDribbble, BsGithub, BsLinkedin } from "react-icons/bs";
