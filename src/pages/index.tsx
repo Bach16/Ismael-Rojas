@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Head>
         <title>Ismael Rojas - Home</title>
-        <meta name="facebook-domain-verification" content="7lhozap12xvwqvcui8m1d05uqsfkcc" />
+        <meta name="facebook-domain-verification" content="0mk11izlcnp77ycy5yz0toq31snkpx" />
         <meta name="description" content="Full stack web developer portfolio" />
         <link rel="icon" href={logo.src} />
         <link href="https://fonts.googleapis.com" rel="preconnect"></link>
