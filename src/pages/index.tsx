@@ -119,7 +119,7 @@ export default function Home() {
             clas={"!bg-[length:100%_auto] !sm:bg-[length:100%_auto]"}
           />          
           <ProjectCard
-            link="https://dulcina.org"
+            link="https://dulcina.vercel.app"
             img="/bg.png"
             year="2023"
             name="Dulcina"
